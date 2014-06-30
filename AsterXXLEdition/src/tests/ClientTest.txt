@@ -1,0 +1,3 @@
+Dies ist plain Input für die read Funktion in Client.
+Sie soll zunächst komprimiert und dann wieder entkomprimiert werden.
+Der Text muß vorher und nachher gleich aussehen. Mit den Umlauten!

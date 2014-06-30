@@ -1,0 +1,15 @@
+{
+ "ArgumentClauses" : {"accumulate" : ["b", "c", "a"]}, 
+ "FunctionName" : "AccumulatorTest", 
+ "Inputs" : [
+  {
+   "DataFile" : {
+    "Filename" : "src/tests/AccumulatorTest.in", 
+    "Format" : "CSV", 
+    "Schema" : ["a integer", "b integer", "c integer"]
+   }, 
+   "InputKind" : "PartitionByAny"
+  }
+ ], 
+ "Output" : {}
+}

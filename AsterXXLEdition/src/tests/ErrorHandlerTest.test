@@ -1,0 +1,15 @@
+{
+ "ArgumentClauses" : {"log" : ["10"], "stopOnError" : ["false"]}, 
+ "FunctionName" : "ErrorHandlerTest", 
+ "Inputs" : [
+  {
+   "DataFile" : {
+    "Filename" : "src/tests/ErrorHandlerTest.in", 
+    "Format" : "CSV", 
+    "Schema" : ["Column0 integer", "Column1 character varying"]
+   }, 
+   "InputKind" : "PartitionByAny"
+  }
+ ], 
+ "Output" : {}
+}

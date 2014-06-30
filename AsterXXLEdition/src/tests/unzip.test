@@ -1,0 +1,17 @@
+{
+ "ArgumentClauses" : {"encode" : ["UTF-8"], "zip" : ["zipped"]}, 
+ "FunctionName" : "unzip", 
+ "Inputs" : [
+  {
+   "DataFile" : {
+    "Filename" : "src/tests/unzip.in", 
+    "Format" : "CSV", 
+    "Schema" : ["file character varying", "chunk integer", "zipped bytea"]
+   }, 
+   "InputKind" : "PartitionByKey", 
+   "OrderingColumns" : ["chunk"], 
+   "PartitioningColumns" : ["file"]
+  }
+ ], 
+ "Output" : {}
+}
